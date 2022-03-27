@@ -116,3 +116,14 @@ For us to run the application and tests, use one of the following options based 
 
 ## Continuous Integration
 1. Use GitHub Actions to run tests
+
+## Instructions to run
+
+1. First you will need to install the dependencies
+
+docker-compose run composer
+
+2. Then you'll be able to run the application or the unit tests with one of the following.
+
+docker-compose run php
+docker-compose run phpunit
